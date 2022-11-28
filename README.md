@@ -1,15 +1,4 @@
 <!-- -->
-<style>
-    hr {
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-    }
-    a {
-        text-decoration:none;
-        color:blue;
-    }
-</style>
-
 <div class="container">
     <h1>Helper Webview Project</h1>
     <p>This project is based on the <a href="https://github.com/maykbrito/simple-webview">maykbrito/simple-webview</a> project.</p>
