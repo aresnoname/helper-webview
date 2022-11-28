@@ -54,27 +54,13 @@ const registerShortcuts = (winDesktop) =>{
     // makes the window in focus in full screen mode
     function fullScreen() {
 
-        // this function throws an error:
-        // A JavaScript error occurred in the main process
-        // TypeError: Object has been destroyed
-        // at Function.fullScreen(C:\src\shortcuts.js:65:44);
-
-        // the error occurs after opening and closing the cell phone window,
-        // when using the full screen function on the desktop window the error occurs.
-
-        // afther the error occurs, if you open the mobile window again,
-        // the error disappears until you close the mobile window.
-
-        // Electron's default function works normally. (F11)
-
         if (winDesktop != null && winDesktop.isFocused() == true) {
             if (winDesktop.isFullScreen() == true) {
                 winDesktop.setFullScreen(false);
             } else {
                 winDesktop.setFullScreen(true);
             }
-        }
-        if (winMobile != null && winMobile.isFocused() == true) {
+        }else if (winMobile != null && winMobile.isFocused() == true) {
             if (winMobile.isFullScreen() == true) {
                 winMobile.setFullScreen(false);
             } else {
