@@ -1,0 +1,7 @@
+module.exports = {
+    desktopWidth: "600",
+    desktopHeight: "400",
+    mobileWidth: "360", // Android Small = 360 x 640 // Android Large = 360 x 800
+    mobileHeight: "640",
+    url: "http://localhost:yourPort"
+}
