@@ -16,5 +16,6 @@
     <p>(Ctrl+2) -> Opens or closes the mobile window.</p>
     <p>(Ctrl+3) -> Fullscreen mode.</p>
     <p>(Ctrl+4) -> Close the application.</p>
+    <p>(Ctrl+q) -> Toggles the titlebar on and off</p>
     <p>(Ctrl+r) -> Reloads the page if necessary, this standard function of electron.</p>
 </div>
